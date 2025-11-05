@@ -1,6 +1,7 @@
 //go:build integration
 // +build integration
 
+// dummy change
 package integration
 
 import (
@@ -8,9 +9,6 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/kylelemons/godebug/pretty"
-	"github.com/vmware-tanzu/sonobuoy/pkg/client/results"
-	yaml "gopkg.in/yaml.v2"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -19,6 +17,10 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/kylelemons/godebug/pretty"
+	"github.com/vmware-tanzu/sonobuoy/pkg/client/results"
+	yaml "gopkg.in/yaml.v2"
 )
 
 const (
